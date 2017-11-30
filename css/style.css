@@ -26,8 +26,8 @@ h6 {
 
 ul,
 label {
-    margin: 0;
-    padding: 0;
+    margin: 14px;
+    padding: 1px;
 }
 
 body a:hover {
