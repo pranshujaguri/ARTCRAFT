@@ -540,6 +540,7 @@ a.w3_agile_vimeo i:hover {
     position: relative;
     float: left;
     width: 100%;
+    top: 150px;
 }
 
 .callbacks {
@@ -1359,7 +1360,7 @@ a.w3_agile_vimeo:hover {
 /*-- banner-bottom --*/
 
 .banner-bottom {
-    padding: 5em 0 5em 0;
+    padding: 11em 0 5em 0;
 }
 
 .w3_banner_bottom_grid_pos {
@@ -4106,7 +4107,7 @@ h2.typoh2 {
     .testimonials,
     .contact,
     .banner-bottom {
-        padding: 2em 0;
+        padding: 11em 0 2em;
     }
     .w3_banner_bottom_grid h3 {
         font-size: 3.4em;
@@ -4776,4 +4777,40 @@ h2.typoh2 {
     z-index: 9999;
     background: url('../images/artwood/freebie-retina-slide-1394087512-1.gif') 50% 50% no-repeat rgb(249, 249, 249);
     Background-size: 100%;
+}
+
+.custom-class li a{
+/*    border-right: 1px solid white;*/
+}
+@media (max-width: 768px) {
+    .custom-class li a{
+/*        border-right: none;*/
+        text-align: center;
+    }
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+     background-color: white; 
+}
+.navbar-fixed-top {
+    top: 100px;
+    border-width: 0 0 1px;
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 3;
+}
+.myclass h1{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    z-index: 4;
+
+}
+.top-logo {
+    position: absolute;
+    top: 15px;
+    left: 50px;
 }
